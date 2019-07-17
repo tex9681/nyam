@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+	<style>
+		* {margin: 0; padding: 0;}
+		ul {list-style: none;}
+		a {color: #000;}
+		.ir_pm {display: block; overflow: hidden; font-size: 0; line-height: 0; text-indent: -9999px;}
+		#wrap {width: 1200px; height: 300px; overflow: hidden; margin: 0 auto;}
+		.left {position: relative; width: 500px; padding: 40px; float: left; border-right: 1px solid #ccc;}
+		.left h2 {padding-bottom: 25px;}
+		.left li {font-size: 14px; padding-bottom: 7px; overflow: hidden;}
+		.left li a {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; float: left; width: 60%; text-decoration: none;}
+		.left li a:hover {text-decoration: underline;}
+		.left li span {float: right; width: 30%;}
+		.left a.more {position: absolute; right: 125px; top: 50px; background: url(img/image1.jpg); width: 12px; height: 22px;}
+
+		.right {position: relative; width: 500px; padding: 40px; float: left;}
+		.right h2 {padding-bottom: 25px;}
+		.right li {font-size: 14px; padding-bottom: 4px; overflow: hidden;}
+		.right li a {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; float: left; width: 60%; text-decoration: none; }
+		.right li a:hover {text-decoration: underline;}
+		.right li span {float: right; width: 30%;}
+		.right a.more {position: absolute; right: 125px; top: 50px; width: 12px; height: 22px; background: url(img/image1.jpg);overflow: hidden;}
+		.right li a img {float: left; padding-right: 5px;}
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<div class="left">
+			<h2>TOAST Meetup!</h2>
+			<ul>
+				<li><a href="#">[Android] Unit Testing Framework-Robolectric</a><span>2019.06.04</span></li>
+				<li><a href="#">[Kotlin] 메모리릭 방지하기 l Kotlin,Lambda의 강력함 l lambda는 어쩌구</a><span>2019.06.04</span></li>
+				<li><a href="#">[Java] Integer.valueOf(127) 는 참일까요?</a><span>2019.06.04</span></li>
+				<li><a href="#">[Kotlin l Android] 테스트 코드 작성이 힘든 이유와 테스트 가능 코드가어쩌구</a><span>2019.06.04</span></li>
+			</ul>
+			<a href="#" class="more ir_pm" title="더보기">더보기</a>
+		</div>
+		<div class="right">
+			<h2>서비스 공지</h2>
+			<ul>
+				<li><a href="#"><img src="img/image2.jpg"> [보안동향공지] MySQL을 이용한 랜섬웨어 공격동향 및 대어쩌구</a><span>2019.06.04</span></li>
+				<li><a href="#"><img src="img/image2.jpg"> [TOAST FORWARD] 자바스크립트 OOP 꼭꼭 씹어 먹기</a><span>2019.05.28</span></li>
+				<li><a href="#"><img src="img/image3.jpg"> [JP Region] Compute & Network 점검 안내</a><span>2019.05.24</span></li>
+				<li><a href="#"><img src="img/image2.jpg"> Secure Key Manager 신규 출시 및 u2 Instance 정책 변어쩌구</a><span>2019.05.24</span></li>
+			</ul>
+			<a href="#" class="more ir_pm" title="더보기">더보기</a>
+		</div>
+	</div>
+</body>
+</html>
