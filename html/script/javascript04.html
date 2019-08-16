@@ -1,0 +1,45 @@
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ko"&gt;
+&lt;head&gt;
+	&lt;meta charset="UTF-8"&gt;
+	&lt;title&gt;매개변수&lt;/title&gt;
+	&lt;script&gt;
+		//화면에 숫자 1000  출력
+		document.write(1000);
+		document.write("&lt;br&gt;&lt;br&gt;");
+
+		//화면에 문자 javascript 출력
+		document.write("javascript");
+		document.write("&lt;br&gt;&lt;br&gt;");
+
+		//변수(x1)에 문자열 "html" 저장하고 출력
+		var x1 = "html";
+		document.write(x1);
+		document.write("&lt;br&gt;&lt;br&gt;");
+
+		//함수(func1)를 이용해서 화면에 "CSS" 출력
+		function  func1(){
+			document.write("CSS");
+			document.write("&lt;br&gt;&lt;br&gt;");
+		}
+		func1();
+
+		//매개변수를 이용해서 화면에 "jQuery" 출력
+		function func2(str){
+			document.write(str);
+			document.write("&lt;br&gt;&lt;br&gt;");
+		}
+		func2("jQuery");
+
+		//매개변수를 이용해서 화면에 "javascript + jQuery" 출력
+		function func3(str1, str2){
+			document.write(str1, " + " + str2);
+			document.write("&lt;br&gt;&lt;br&gt;");
+		}
+		func3("javascript", "jQuery");
+	&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	
+&lt;/body&gt;
+&lt;/html&gt;
