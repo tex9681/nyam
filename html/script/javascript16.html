@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		var x= 100;  	//변수 x에 숫자 100을 저장
+
+		if(x > 200){		//변수 x가 200보다 크면 실행(true)
+			document.write(x);
+		}
+
+		if(x < 200){		//변수 x가 200보다 작으면 실행(true)
+			document.write(x,"<br>");
+		}
+
+		if(true){
+			document.write(x,"<br>");
+		}
+
+		if(false){
+			document.write(x,"<br>");
+		}
+
+		//통화량 구분하기
+		var min = prompt("당신의 하루 통화량은 몇 분인가요?", "0");
+		if(min > 60){
+			document.write("많이 사용하는 편이네요", "<br>");
+		}
+		//짝수 구분하기
+		var num = prompt("숫자를 입력해 주세요!!");
+		if(num % 2 == 0){
+			document.write("당신이 입력한 숫자는 짝수입니다.");
+		}
+
+		//조건식에 논리형 데이터가 아닌 다른 형이 오는 경우
+		//0, null, ""(빈 문자), undefined  --> true로 인식함
+		var y = 100;
+
+		if(y){
+			document.write(y,"<br>");
+
+		}
+
+		var useName = prompt("당신의 이름은?"",");
+		if(userName){
+			document.write(useName + "님 반가워요.");
+		}
+		// document.write(useName + "님 반가워요.");
+		// if(userName) document.write(useName + "님 반가워요.");
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
