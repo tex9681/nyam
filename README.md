@@ -7,6 +7,3 @@
 
 <h3>반응형 사이트</h3>
 <a href="https://tex9681.github.io/nyam/html/responsive/index.html">반응형 사이트</a>
-
-<h3>CSS3</h3>
-<a href="https://tex9681.github.io/nyam/html/">CSS3</a>
