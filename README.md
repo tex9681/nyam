@@ -1,4 +1,4 @@
-# nyam
+# study
 
 <a href="https://tex9681.github.io/nyam/html/">tex9681.github.io</a>
 
